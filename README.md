@@ -1,20 +1,19 @@
-# Forest-Fire-Prediction XAI ML Base Model
+Forest Fire Prediction with Explainable AI (XAI):
+This project focuses on predicting forest fires using machine learning techniques. By analyzing environmental and climatic data, the model estimates the likelihood of fire occurrences. It encompasses data preprocessing, predictive modeling, and explainability through XAI techniques.
 
-This project implements a Forest Fire Prediction Model using machine learning techniques. The model analyzes environmental and climatic data to predict the likelihood of forest fires. It includes data preprocessing, predictive modeling, and explainability using XAI techniques.
+Features:
+1)Data Processing & Preparation: Handles missing values, normalizes features, and selects significant variables.
+2)Predictive Modeling: Employs machine learning algorithms to assess fire risks.
+3)Explainability with XAI: Uses SHAP and LIME to provide insights into model decisions.
+4)Performance Evaluation: Assesses accuracy, precision, recall, and F1-score to measure effectiveness.
 
-Features
-Data Collection & Preprocessing: Handles missing values, normalizes data, and selects relevant features.
-Predictive Modeling: Implements machine learning models to predict forest fire occurrences.
-Explainable AI (XAI): Utilizes SHAP and LIME to interpret model predictions.
-Evaluation Metrics: Uses accuracy, precision, recall, and F1-score for performance assessment.
+Dataset:
+The dataset consists of historical forest fire records along with environmental attributes such as temperature, humidity, wind speed, and vegetation indices.
 
-Dataset
-The model uses a dataset containing historical forest fire records along with environmental parameters like temperature, humidity, wind speed, and vegetation index.
+Results:
+The trained model generates fire risk predictions, aiding early warning systems and disaster mitigation efforts. Explainability techniques highlight the key factors influencing predictions.
 
-Results
-The trained model provides fire risk predictions, which can be used for early warning systems and disaster prevention. Explainability methods offer insights into key contributing factors.
-
-Future Enhancements
-Integration of real-time weather data.
-Expansion to cover different geographical regions.
+Future Improvements:
+Incorporation of real-time weather data.
+Expansion to multiple geographical areas.
 Deployment as a web or mobile application.
